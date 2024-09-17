@@ -1,7 +1,7 @@
 //1 = kő 2= papír 3= olló
 
-const p1= parseInt(prompt("1 = kő 2= papír 3= olló"));
-const p2= parseInt(prompt("1 = kő 2= papír 3= olló"));
+const p1= parseInt(prompt("Player1: 1 = kő 2 = papír 3 = olló"));
+const p2= parseInt(prompt("Player2: 1 = kő 2 = papír 3 = olló"));
 
 
 if(p1 == 1){ // p1 követ választ
