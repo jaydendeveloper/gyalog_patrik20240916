@@ -1,6 +1,6 @@
 function feladat13(){
 
-    console.log("FELADAT 13");
+    console.log("while_loop_5");
 
     for(let i = 10; i <= 31; i++){
         const divisors = [];

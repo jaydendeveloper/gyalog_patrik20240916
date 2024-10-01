@@ -1,6 +1,8 @@
-function feladat14(){
+import input from "./input.js";
 
-    const count_to = parseInt(prompt("FELADAT 14: Meddig szamoljon: "));
+async function feladat14(){
+
+    const count_to = parseInt(await input("FIZZBUZZ: Meddig szamoljon: "));
 
     for(let i = 1; i <= count_to; i++){
 

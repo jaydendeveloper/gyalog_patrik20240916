@@ -1,6 +1,6 @@
 function feladat2(){
 
-    console.info("FELADAT 2")
+    console.info("seconds_in_day");
 
     const currentHours = 14;
     const currentMinutes = 34;

@@ -1,6 +1,6 @@
 function feladat1(){
 
-    console.info("FELADAT 1")
+    console.info("cuboid")
 
     const side1 = 10.4;
     const side2 = 13.5;

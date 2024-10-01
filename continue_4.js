@@ -1,6 +1,6 @@
 function feladat12(){
             
-    console.info("FELADAT 11");
+    console.info("CONTINUE_4");
     
     let x = 0;
     let divisible = 0;
@@ -36,3 +36,5 @@ function feladat12(){
         }
     }
 }
+
+feladat12();

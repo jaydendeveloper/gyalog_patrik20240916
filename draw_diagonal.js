@@ -1,8 +1,10 @@
-function feladat10(){
+import input from "./input.js";
+
+async function feladat10(){
     
-    console.info("FELADAT 10");
+    console.info("draw_diagonal");
    
-    const sqare_size = parseInt(prompt("FELADAT10: Negyzet merete: "));
+    const sqare_size = parseInt(await input("Negyzet merete: "));
 
     for(let i = 1; i <= sqare_size; i++){
         let row = "";

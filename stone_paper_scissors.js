@@ -1,11 +1,13 @@
-function feladat6(){
+import input from "./input.js";
+
+async function feladat6(){
     
-    console.info("FELADAT 6")
+    console.info("stone paper scissors")
     
     //1 = kő 2= papír 3= olló
 
-    const p1= parseInt(prompt("Player1: 1 = kő 2 = papír 3 = olló"));
-    const p2= parseInt(prompt("Player2: 1 = kő 2 = papír 3 = olló"));
+    const p1= parseInt(await input("Player1: 1 = kő 2 = papír 3 = olló"));
+    const p2= parseInt(await input("Player2: 1 = kő 2 = papír 3 = olló"));
 
 
     if(p1 == 1){ // p1 követ választ

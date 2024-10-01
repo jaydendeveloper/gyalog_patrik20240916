@@ -1,6 +1,6 @@
 function feladat3(){
 
-    console.info("FELADAT 3")
+    console.info("BMI")
 
     const mass_in_kg = 81.2;
     const height_in_m = 1.78;

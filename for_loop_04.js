@@ -1,6 +1,6 @@
 function feladat7(){
 
-    console.info("FELADAT 7")
+    console.info("for_loop_04")
 
     const my_string = 'apple';
 

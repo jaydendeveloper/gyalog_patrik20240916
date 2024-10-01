@@ -1,6 +1,6 @@
 function feladat9(){
 
-    console.info("FELADAT 9");
+    console.info("for_loop_12");
 
     const number = 268;
 
